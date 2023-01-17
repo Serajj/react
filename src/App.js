@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Form from './Form';
+
 class App extends React.Component {
 	// constructor method begins here:
 constructor(props) {
@@ -10,7 +12,7 @@ constructor(props) {
   render() {
     return (
       <h1>
-        {this.state.title}
+        <Form login="0" />
       </h1>
     );
   }
